@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "apartments": "Apartamentet",
+    "about": "Rreth Nesh",
+    "contact": "Kontakt",
+    "bookNow": "Rezervo Tani"
+  },
+  "hero": {
+    "title": "SHËNGJIN",
+    "subtitle": "Përjetoni qëndrimin perfekt bregdetar në Shqipëri. Apartamente moderne me pamje mahnitëse të detit Adriatik.",
+    "cta": "Shiko Të Gjitha Apartamentet"
+  },
+  "about": {
+    "title": "Bregdeti",
+    "p1": "Zbuloni përzierjen perfekte të arkitekturës moderne dhe bukurisë natyrore. Apartamentet tona ofrojnë një përvojë të pashoqe në bregdetin shqiptar, të dizajnuara për ata që vlerësojnë linjat e pastra, pamjet e gjera dhe komoditetin pa kompromis.",
+    "p2": "Të vendosura vetëm disa hapa larg plazheve të virgjëra të Shëngjinit, çdo hapësirë është kuruar me kujdes për të sjellë qetësinë e detit brenda, me dritare nga dyshemeja deri në tavan dhe tarracë të gjera private."
+  },
+  "featured": {
+    "title": "Apartamente të Zgjedhura",
+    "subtitle": "Hapësira të kuruar për pushimin perfekt bregdetar.",
+    "viewAll": "Shiko Koleksionin e Plotë"
+  },
+  "stats": {
+    "units": "Njësi Premium",
+    "beach": "Deri në Plazh",
+    "rating": "Vlerësimi i Mysafirëve",
+    "concierge": "Konçierxh"
+  },
+  "footer": {
+    "cta": "Na Kontaktoni",
+    "ctaSub": "Planifikoni një qëndrim të gjatë ose keni nevojë për akomodim specifik? Kontaktoni ekipin tonë.",
+    "rights": "Të gjitha të drejtat të rezervuara."
+  },
+  "listing": {
+    "title": "Të Gjitha Apartamentet",
+    "filterBy": "Filtro Sipas",
+    "bedrooms": "Dhoma Gjumi",
+    "distance": "Distanca nga Deti",
+    "noResults": "Asnjë apartament nuk përputhet me filtrat tuaja.",
+    "clearFilters": "Pastro Filtrat"
+  },
+  "filters": {
+    "all": "Të gjitha",
+    "beachfront": "Buzë Detit (0–50m)",
+    "nearBeach": "Pranë Plazhit (50–150m)",
+    "shortWalk": "Ecje e Shkurtër (150m+)",
+    "beds1": "1 Dhomë",
+    "beds2": "2 Dhoma",
+    "beds3": "3+ Dhoma"
+  },
+  "detail": {
+    "amenities": "Lehtësirat",
+    "contactUs": "Na Kontaktoni",
+    "interested": "Jeni të interesuar për këtë apartament?",
+    "call": "Thirr",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "bedrooms": "Dhoma Gjumi",
+    "bathrooms": "Banjo",
+    "area": "Hapësirë banimi",
+    "toSea": "deri në Det"
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "name": "Emri",
+    "namePlaceholder": "Emri juaj",
+    "email": "Email",
+    "emailPlaceholder": "email@juaj.com",
+    "message": "Mesazhi",
+    "messagePlaceholder": "Si mund t'ju ndihmojmë?",
+    "send": "Dërgo Mesazhin",
+    "sending": "Duke dërguar...",
+    "success": "Mesazhi u dërgua! Do t'ju përgjigjemi së shpejti.",
+    "error": "Diçka shkoi keq. Ju lutem provoni përsëri.",
+    "location": "Vendndodhja Jonë",
+    "emailUs": "Na dërgoni Email",
+    "callWhatsapp": "Thirr / WhatsApp"
+  },
+  "language": {
+    "en": "EN",
+    "sq": "SQ"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "apartments": "Apartments",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "SHËNGJIN",
+    "subtitle": "Experience the ultimate coastal stay in Albania. Modern apartments with breathtaking Adriatic sea views.",
+    "cta": "See All Apartments"
+  },
+  "about": {
+    "title": "The Coast",
+    "p1": "Discover the perfect blend of modern architecture and natural beauty. Our apartments offer an unparalleled experience on the Albanian coast, designed for those who appreciate clean lines, expansive views, and uncompromising comfort.",
+    "p2": "Situated just steps from the pristine beaches of Shëngjin, every space is thoughtfully curated to bring the tranquility of the sea indoors, featuring floor-to-ceiling windows and spacious private terraces."
+  },
+  "featured": {
+    "title": "Featured Apartments",
+    "subtitle": "Curated spaces for the ultimate coastal retreat.",
+    "viewAll": "View Complete Collection"
+  },
+  "stats": {
+    "units": "Premium Units",
+    "beach": "To The Beach",
+    "rating": "Guest Rating",
+    "concierge": "Concierge"
+  },
+  "footer": {
+    "cta": "Let's Talk",
+    "ctaSub": "Planning a longer stay or need specific accommodations? Reach out to our team.",
+    "rights": "All rights reserved."
+  },
+  "listing": {
+    "title": "All Apartments",
+    "filterBy": "Filter By",
+    "bedrooms": "Bedrooms",
+    "distance": "Distance to Sea",
+    "noResults": "No apartments match your filters.",
+    "clearFilters": "Clear Filters"
+  },
+  "filters": {
+    "all": "All",
+    "beachfront": "Beachfront (0–50m)",
+    "nearBeach": "Near Beach (50–150m)",
+    "shortWalk": "Short Walk (150m+)",
+    "beds1": "1 Bed",
+    "beds2": "2 Beds",
+    "beds3": "3+ Beds"
+  },
+  "detail": {
+    "amenities": "Amenities",
+    "contactUs": "Contact Us",
+    "interested": "Interested in this apartment?",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Living space",
+    "toSea": "to Sea"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "location": "Our Location",
+    "emailUs": "Email Us",
+    "callWhatsapp": "Call / WhatsApp"
+  },
+  "language": {
+    "en": "EN",
+    "sq": "SQ"
+  }
+}
