@@ -2,8 +2,6 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { createServiceRoleClient } from "@/lib/supabaseServer";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -33,6 +31,7 @@ export async function POST(req: Request) {
     }
 
     // ── Send notification email via Resend ───────────────────────────────────
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const notificationEmail = process.env.CONTACT_NOTIFICATION_EMAIL;
     if (notificationEmail) {
       try {
