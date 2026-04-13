@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     icon: "/shengjinLogo_golden.png",
     apple: "/shengjinLogo_golden.png",
   },
+  verification: {
+    google: "-ymB-nTfnXFSxTgVC2AkEV6xHVQ9K_cZS6YcwxfNStk",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
