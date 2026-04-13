@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 no-underline">
           <Image
-            src="/shengjinLogo.png"
+            src="/shengjinLogo_golden.png"
             alt="Shëngjin Stay"
             width={200}
             height={100}
@@ -112,7 +112,7 @@ export default function Navbar() {
               className="flex items-center gap-2 no-underline"
               onClick={() => setMobileOpen(false)}>
               <Image
-                src="/shengjinLogo.png"
+                src="/shengjinLogo_golden.png"
                 alt="Shëngjin Stay"
                 width={200}
                 height={100}
