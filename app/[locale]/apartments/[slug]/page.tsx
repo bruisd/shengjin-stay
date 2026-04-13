@@ -123,6 +123,7 @@ export default async function ApartmentDetailPage({
 }) {
   const { locale, slug } = await params;
   const t = await getTranslations("detail");
+  const ta = await getTranslations("amenities");
 
   const supabase = await createServerSupabaseClient();
   const { data: apartment } = await supabase
@@ -223,10 +224,10 @@ export default async function ApartmentDetailPage({
                 {t("amenities")}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
-                {apartment.amenities.map((amenity: string) => (
-                  <div key={amenity} className="flex items-center gap-3">
+                {apartment.amenities.map((key: string) => (
+                  <div key={key} className="flex items-center gap-3">
                     <span className="text-primary flex-shrink-0"><CheckIcon /></span>
-                    <span className="text-slate-700">{amenity}</span>
+                    <span className="text-slate-700">{ta(key)}</span>
                   </div>
                 ))}
               </div>

@@ -20,11 +20,11 @@ export default async function Footer() {
 
       {/* Bottom bar */}
       <div className="flex flex-col sm:flex-row justify-between items-center mt-32 pt-8 border-t border-slate-800 text-slate-500 text-sm gap-4">
-        <span className="font-display font-bold text-white tracking-widest uppercase">
+        <span className="font-display font-bold text-white tracking-widest uppercase sm:w-1/3">
           Shëngjin Stay
         </span>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center justify-center sm:w-1/3">
           <a
             href="https://www.instagram.com/shengjin_stay?igsh=NGczajN5a3p5MW1z"
             className="hover:text-white transition-colors"
@@ -45,7 +45,7 @@ export default async function Footer() {
           </a>
         </div>
 
-        <span>© 2026 Shëngjin Stay. {t("rights")}</span>
+        <span className="sm:w-1/3 sm:text-right">© 2026 Shëngjin Stay. {t("rights")}</span>
       </div>
     </footer>
   );

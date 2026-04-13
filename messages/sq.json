@@ -79,5 +79,29 @@
   "language": {
     "en": "EN",
     "sq": "SQ"
+  },
+  "amenities": {
+    "ocean_view": "Pamje nga Deti",
+    "balcony": "Ballkon",
+    "terrace": "Tarracë",
+    "wifi": "Wi-Fi me Shpejtësi të Lartë",
+    "kitchen": "Kuzhinë e Pajisur Plotësisht",
+    "kitchenette": "Kuzhinë e Vogël",
+    "ac": "Kondicionim Ajri",
+    "heating": "Ngrohje",
+    "smart_tv": "Smart TV",
+    "washer": "Makinë Larëse",
+    "dryer": "Tharëse",
+    "parking": "Parking Falas",
+    "beach_access": "Akses në Plazh",
+    "pool": "Pishinë",
+    "gym": "Palestër",
+    "elevator": "Ashensor",
+    "pet_friendly": "Miqësor me Kafshët",
+    "dishwasher": "Makinë Larëse Enësh",
+    "iron": "Hekur",
+    "hair_dryer": "Tharëse Flokësh",
+    "safe": "Kasafortë",
+    "bbq": "Zonë BBQ"
   }
 }

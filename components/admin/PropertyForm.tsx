@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase";
 import type { Apartment } from "@/lib/types";
+import { AMENITY_OPTIONS, AMENITY_LABELS_EN } from "@/lib/constants";
 
 interface PropertyFormProps {
   apartment?: Apartment;
@@ -38,7 +39,7 @@ export default function PropertyForm({ apartment }: PropertyFormProps) {
     bedrooms: apartment?.bedrooms?.toString() ?? "",
     bathrooms: apartment?.bathrooms?.toString() ?? "",
     distance_to_sea: apartment?.distance_to_sea?.toString() ?? "",
-    amenities: apartment?.amenities?.join(", ") ?? "",
+    amenities: (apartment?.amenities ?? []) as string[],
     is_published: apartment?.is_published ?? false,
   });
 
@@ -118,9 +119,7 @@ export default function PropertyForm({ apartment }: PropertyFormProps) {
       bedrooms: form.bedrooms ? parseInt(form.bedrooms) : null,
       bathrooms: form.bathrooms ? parseInt(form.bathrooms) : null,
       distance_to_sea: form.distance_to_sea ? parseInt(form.distance_to_sea) : null,
-      amenities: form.amenities
-        ? form.amenities.split(",").map((a) => a.trim()).filter(Boolean)
-        : [],
+      amenities: form.amenities,
       photos,
       is_published: form.is_published,
     };
@@ -228,14 +227,37 @@ export default function PropertyForm({ apartment }: PropertyFormProps) {
       {/* Amenities */}
       <div>
         <label className={LABEL}>Amenities</label>
-        <input
-          type="text"
-          value={form.amenities}
-          onChange={(e) => setForm((f) => ({ ...f, amenities: e.target.value }))}
-          placeholder="Wi-Fi, Air Conditioning, Ocean View, Free Parking"
-          className={INPUT}
-        />
-        <p className="text-xs text-slate-400 mt-1.5">Separate each amenity with a comma.</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {AMENITY_OPTIONS.map((amenity) => {
+            const checked = form.amenities.includes(amenity.key);
+            return (
+              <label
+                key={amenity.key}
+                className={`flex items-center gap-3 p-3 rounded-[0.5rem] border cursor-pointer transition-colors ${
+                  checked
+                    ? "border-2 border-[#6326a1] bg-[#6326a1]/5"
+                    : "border-slate-200 hover:bg-slate-50"
+                }`}
+              >
+                <input
+                  type="checkbox"
+                  className="sr-only"
+                  checked={checked}
+                  onChange={() =>
+                    setForm((f) => ({
+                      ...f,
+                      amenities: checked
+                        ? f.amenities.filter((k) => k !== amenity.key)
+                        : [...f.amenities, amenity.key],
+                    }))
+                  }
+                />
+                <span className="text-lg">{amenity.icon}</span>
+                <span className="text-sm font-medium">{AMENITY_LABELS_EN[amenity.key]}</span>
+              </label>
+            );
+          })}
+        </div>
       </div>
 
       {/* Photos */}

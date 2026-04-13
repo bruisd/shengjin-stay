@@ -79,5 +79,29 @@
   "language": {
     "en": "EN",
     "sq": "SQ"
+  },
+  "amenities": {
+    "ocean_view": "Ocean View",
+    "balcony": "Balcony",
+    "terrace": "Terrace",
+    "wifi": "High-Speed Wi-Fi",
+    "kitchen": "Fully Equipped Kitchen",
+    "kitchenette": "Kitchenette",
+    "ac": "Air Conditioning",
+    "heating": "Heating",
+    "smart_tv": "Smart TV",
+    "washer": "Washing Machine",
+    "dryer": "Dryer",
+    "parking": "Free Parking",
+    "beach_access": "Beach Access",
+    "pool": "Swimming Pool",
+    "gym": "Gym",
+    "elevator": "Elevator",
+    "pet_friendly": "Pet Friendly",
+    "dishwasher": "Dishwasher",
+    "iron": "Iron",
+    "hair_dryer": "Hair Dryer",
+    "safe": "Safe",
+    "bbq": "BBQ Area"
   }
 }
