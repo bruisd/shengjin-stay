@@ -13,8 +13,7 @@ export default async function Footer() {
         <p className="text-slate-400 text-lg mb-12">{t("ctaSub")}</p>
         <a
           href={`mailto:${CONTACT_EMAIL}`}
-          className="inline-block text-primary hover:text-white text-2xl lg:text-3xl font-bold border-b-2 border-primary pb-2 hover:border-white transition-colors"
-        >
+          className="inline-block text-primary hover:text-white text-2xl lg:text-3xl font-bold border-b-2 border-primary pb-2 hover:border-white transition-colors">
           {CONTACT_EMAIL}
         </a>
       </div>
@@ -26,21 +25,27 @@ export default async function Footer() {
         </span>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="hover:text-white transition-colors" aria-label="Instagram">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <a
+            href="https://www.instagram.com/shengjin_stay?igsh=NGczajN5a3p5MW1z"
+            className="hover:text-white transition-colors"
+            aria-label="Instagram">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
               <circle cx="12" cy="12" r="4" />
               <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
             </svg>
           </a>
-          <a href="#" className="hover:text-white transition-colors" aria-label="Facebook">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-            </svg>
-          </a>
         </div>
 
-        <span>© 2024 Shëngjin Stay. {t("rights")}</span>
+        <span>© 2026 Shëngjin Stay. {t("rights")}</span>
       </div>
     </footer>
   );
