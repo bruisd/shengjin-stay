@@ -66,7 +66,7 @@ const BUSINESS_SCHEMA = {
     longitude: "19.5936",
   },
   image: HERO_IMAGE,
-  telephone: "+355691234567",
+  telephone: "+355693776830",
 };
 
 function bedroomBadge(bedrooms: number | null) {

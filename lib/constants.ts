@@ -1,8 +1,8 @@
-export const WHATSAPP_NUMBER = "355691234567";
+export const WHATSAPP_NUMBER = "355693776830";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const WHATSAPP_DEFAULT_MESSAGE = "Hi! I'm interested in an apartment at Shëngjin Stay.";
-export const CONTACT_EMAIL = "hello@shengjinstay.com";
-export const CONTACT_PHONE = "+355 69 123 4567";
+export const CONTACT_EMAIL = "shengjinstay@gmail.com";
+export const CONTACT_PHONE = "+355 69 37 76 830";
 export const SITE_NAME = "Shëngjin Stay";
 export const SITE_URL = "https://shengjinstay.com";
 
